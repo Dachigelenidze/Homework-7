@@ -1,0 +1,231 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style-type: none;
+    box-sizing: border-box;
+}
+header{
+    width: 100%;
+    padding: 40px;
+    display: flex;
+    text-align: center;   
+
+}
+header nav {
+    width: 564px;
+    margin-left: 230px;
+    align-items: center ;
+}
+header ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+header ul a {
+    padding: 5px 10px;
+    color: #000000;
+    font-size: 20px;
+}
+h1{
+    font-size: 20px;
+    padding-left: 82px;  
+}
+.home { border-bottom: 2px solid #000000;}
+.about{border-bottom: 2px solid #000000;}
+.Services{border-bottom: 2px solid #000000;}
+.contactus{border-bottom: 2px solid #000000}
+.fa-solid fa-toggle-on{
+    padding-left: 82px;
+}
+.gilaki {
+    width: 180px;
+    height: 50px;
+    background-color: #FDC72D;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 61px;
+    margin-left: 102px;
+    margin-top: -14px;
+}
+.gilaki a {
+    padding: 5px 10px;
+    color: #000000;
+    font-size: 20px;
+    font-weight: 900px;
+}
+.kvadrati {
+    margin: 14px auto;
+    width: 1320px;
+    height: 724px;
+    /* background-color: blue; */
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+}
+.kvadrati1{
+width: 466px;
+height: 294px;
+}
+.kvadrati2 {
+    
+    width: 854px;
+    height: 100% ;
+    background-image: url(../img/Img.png);
+}
+.text1{
+    font-size: 60px;
+    font-weight: 900px;
+    color: #000000;
+}
+.text2{
+    width: 250px;
+    height: 90px;
+    margin-top: 24px;
+    opacity: 0.5;
+
+}
+.started {
+    margin-top: 66px;
+    margin-left: 20px;
+}
+
+/* about css-is dasawyisi*/
+.container{
+    width: 1286px;
+    height: 1212px;
+    margin: 20px auto;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    
+}
+.container1{
+width: 676px;
+height: 506px;
+background-image: url(../img/about\ html\ img1.png);
+
+}
+.container2{
+    width: 512px;
+    height: 272px;
+    margin-left: 98px
+}
+
+.container3{
+width: 502px;
+height: 290px;
+}
+.container4 {
+    width: 746px;
+    height: 492px;
+    background-image: url(../img/about\ html\ img\ 2.png);
+}
+/* services css-is dasawyisi*/
+.satauri{
+    /* width: 380px;
+    height: 120px;
+    margin: 96px auto; */
+    margin-top: 96px;
+    text-align: center;
+}
+.satauri h2{
+    font-size: 40px;
+    font-weight: 1000px;
+}
+.satauri1{
+text-align: center;
+}
+.servicecontainer{
+    width: 1332px;
+    height: 1038px;
+    margin:90px auto;
+    display: flex;
+    justify-content: space-between;
+
+}
+.servicecontainer1{
+    width: 380px;
+    height: 380px;
+    border-radius: 10%;
+    box-shadow: 1px 1px 10px 0px  #E0E0E0;
+
+}
+.statia {
+    text-align: center;
+}
+.statia h2{
+    margin-top: 32px;
+}
+
+.surati{
+    margin: 32px auto; 
+    width: 202px;
+    height: 120px;
+   
+}
+.statia p{
+    opacity: 0.5;
+}
+    .s1{width: 236px;
+    height: 46px;
+    margin-top: 30px;}
+    .statia h3{
+        text-align: center;
+        margin-top: 26px;
+    }
+    
+    .statia h3 a{
+        color: black;}
+    .servicesurati{
+        width: 1248px;
+        height: 500px;
+        margin-bottom: 146px;
+        display: flex;
+        align-content: center;
+    }
+    .servicesurati1{
+        width: 544px;
+        height: 100%;
+        background-image: url(../img/service\ img4.png);
+        margin-bottom: 148px;
+    }
+    .servicesurati2{
+        width: 510px;
+        height: 250px;
+        margin-left: 200px;
+    }
+    .origilaki {
+    display: flex;
+    justify-content: space-between;
+    width: 466px;
+    height: 62px;
+    margin-top: 64px;
+    }
+/* contactus css-is dasawyisi*/
+.pad{
+    width: 1240px;
+    height: 244px;
+    margin: 140px auto;
+    display: flex;
+    align-content: center;
+    justify-content: space-between;
+}
+.pad1{
+    width: 506px;
+    height: 244px;
+}
+.pad1 h2 {font-size: 40px;
+    font-weight: 1000px;}
+.pad1 p {opacity: 0.5;
+padding-top: 30px;}
+.pad2{
+    width: 596px;
+    height: 146px;
+    margin-left: 50px;
+    
+}
+.pad2 p {
+    padding: 5px 10px;
+}
